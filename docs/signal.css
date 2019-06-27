@@ -1,0 +1,116 @@
+/*!
+ * japanese-signal JavaScript Library
+ * https://tamyam.github.io/japanese-signal/
+ *
+ * Copyright (c) 2019 tamyam
+ * Released under the MIT license
+ * https://github.com/tamyam/japanese-signal/blob/master/LICENSE
+ */
+.signal * {
+  margin: 0;
+  padding: 0;
+}
+
+.signal > div {
+  overflow: hidden;
+}
+
+.signal > div > div {
+  --size: 50px;
+  background-color: #eee;
+  border: 1px solid #7773;
+  border-radius: 25%;
+  box-sizing: border-box;
+  float: left;
+  height: var(--size);
+  margin-left: calc(var(--size) / -2);
+  padding: calc(var(--size) * 0.1);
+  padding-top: calc(var(--size) * 0.12);
+  padding-bottom: calc(var(--size) * 0.08);
+  width: var(--size);
+}
+
+.signal > div > div:first-child {
+  margin-left: 0;
+}
+
+.signal > div > div._ {
+  background-color: transparent;
+  border: none;
+}
+
+.signal > div > div::after {
+  border-radius: 50%;
+  box-shadow: 0 -5px #7776, inset 0 2px 5px #0004;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.signal > div > div._::after {
+  content: none;
+}
+
+.signal > div > div.G::after {
+  background-color: #3fc;
+}
+
+.signal > div > div.Y::after {
+  background-color: #fc0;
+}
+
+.signal > div > div.R::after {
+  background-color: #f00;
+}
+
+.signal > div > div.black::after {
+  background-color: #000;
+}
+
+.signal > div > div.Q::after {
+  background-image: url("Q.svg");
+  background-size: cover;
+}
+
+.signal > div > div.W::after {
+  background-image: url("W.svg");
+  background-size: cover;
+}
+
+.signal > div > div.E::after {
+  background-image: url("E.svg");
+  background-size: cover;
+}
+
+.signal > div > div.A::after {
+  background-image: url("A.svg");
+  background-size: cover;
+}
+
+.signal > div > div.D::after {
+  background-image: url("D.svg");
+  background-size: cover;
+}
+
+.signal > div > div.Z::after {
+  background-image: url("Z.svg");
+  background-size: cover;
+}
+
+.signal > div > div.X::after {
+  background-image: url("X.svg");
+  background-size: cover;
+}
+
+.signal > div > div.C::after {
+  background-image: url("C.svg");
+  background-size: cover;
+}
+
+.signal > div > div.U::after {
+  background-image: url("U.svg");
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style.css.map */
